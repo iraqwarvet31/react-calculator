@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgba(216, 14, 91, 0.918),  rgba(88, 24, 69, 0.979)), url('../beach.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Operator mono', cursive;
+  color: #d4d3d3;
+  padding-top: 100px;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Montserrat', cursive;
+  color: #d4d3d3;
+}
+
+p {
+  width: 280px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #f0efef;
+  border: none;
+  text-align: right;
+}
+
+.btn {
+  width: 60px;
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  border: none;
+  color: #585858;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+  color: #585858 !important;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #585858;
+}
+
+
+.buttons-container {
+  padding-top: 0px;
+  position: relative;
+}
+
+.clear-btn {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.equals-btn {
+  position: absolute;
+  width: 80px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.display-container {
+  width: 290px;
+  height: 75px;
+  padding: 45px 5px 100px;
+  background-image: linear-gradient(to bottom right, #b90a37, #b40b38, #b00b3a, #ab0d3b, #a60e3c);
+}
+
+.jumbotron-fluid {
+  width: 290px;
+  height: 425px;
+  padding: 0 0 0px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px #620026;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 2px 4px #620026;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 2px 4px #620026;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.operations {
+  background-color: #fff;
+  width: 70px
+}
+
+.numbers-btn {
+  width: 70px;
+  background-color: #fff;
+}
